@@ -6,7 +6,7 @@ An opinionated skeleton for building apps with Laravel, Hybridly, Vue, and Tailw
 
 ## Features
 
-❯ 🚀 Smooth client-to-server communication with [Hybridly](https://hybridly.dev/).
+❯ 🚀 Smooth client-server communication with [Hybridly](https://hybridly.dev/).
 
 ❯ 🔐 Authentication and registration built-in, including a password reset flow.
 
