@@ -8,7 +8,7 @@ class LoginController extends Controller
 {
     public function show()
     {
-        return hybridly('auth/login');
+        return hybridly('auth.login');
     }
 
     public function store(LoginRequest $request)

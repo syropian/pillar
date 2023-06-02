@@ -2,6 +2,8 @@ module.exports = {
   globals: {
     route: 'readonly',
     useForm: 'readonly',
+    useProperty: 'readonly',
+    useHead: 'readonly',
   },
   env: {
     browser: true,

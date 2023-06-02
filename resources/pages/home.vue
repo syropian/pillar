@@ -1,5 +1,9 @@
 <script setup lang="ts">
 import BaseButton from '@/components/core/base-button.vue'
+
+useHead({
+  title: 'Home',
+})
 </script>
 
 <template>
@@ -10,14 +14,14 @@ import BaseButton from '@/components/core/base-button.vue'
       <div class="mt-6 space-y-3">
         <BaseButton
           as="link"
-          href="/register"
+          :href="route('register.show')"
           class="w-full"
           >Sign up</BaseButton
         >
 
         <BaseButton
           as="link"
-          href="/auth/login"
+          :href="route('login.show')"
           variant="secondary"
           class="w-full"
           >Sign in</BaseButton

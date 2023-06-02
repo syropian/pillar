@@ -9,7 +9,7 @@ class RegisterationController extends Controller
 {
     public function show()
     {
-        return hybridly('register');
+        return hybridly('auth.register');
     }
 
     public function store(RegisterRequest $request)

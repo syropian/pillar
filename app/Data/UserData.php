@@ -5,7 +5,7 @@ namespace App\Data;
 use Carbon\Carbon;
 use Spatie\LaravelData\Data;
 
-final class UserData extends Data
+class UserData extends Data
 {
     public function __construct(
         public readonly ?int $id,

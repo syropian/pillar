@@ -1,20 +1,27 @@
 <script setup lang="ts">
-import BaseButton from '@/components/core/base-button.vue'
 import BaseTextInput from '@/components/core/base-textinput.vue'
+import BaseButton from '@/components/core/base-button.vue'
+import { tryOnMounted } from '@vueuse/core'
 
 useHead({
-  title: 'Sign up',
+  title: 'Reset password',
 })
+
+const props = defineProps<{ token: string }>()
 
 const form = useForm({
   method: 'POST',
-  url: route('register.store'),
+  url: route('password.update'),
   fields: {
-    name: '',
     email: '',
     password: '',
     password_confirmation: '',
+    token: props.token,
   },
+})
+
+tryOnMounted(() => {
+  form.fields.email = new URLSearchParams(location.search).get('email') ?? ''
 })
 </script>
 
@@ -22,7 +29,7 @@ const form = useForm({
   <main class="w-screen h-screen grid place-items-center">
     <div class="max-w-md w-full">
       <div class="bg-gray-100 p-8 rounded-3xl">
-        <h1 class="text-2xl font-black text-gray-700 text-center">Sign up</h1>
+        <h1 class="text-2xl font-black text-gray-700 text-center">Reset your password</h1>
 
         <div class="mt-2 space-y-3">
           <form
@@ -31,42 +38,10 @@ const form = useForm({
           >
             <div class="w-full">
               <BaseTextInput
-                v-model="form.fields.name"
-                placeholder="Your name"
-                class="w-full"
-                type="text"
-              />
-
-              <p
-                v-if="form.errors.name"
-                class="mt-2 text-left text-xs font-semibold text-red-500"
-              >
-                {{ form.errors.name }}
-              </p>
-            </div>
-
-            <div class="w-full">
-              <BaseTextInput
-                v-model="form.fields.email"
-                placeholder="Your email"
-                class="w-full"
-                type="email"
-              />
-
-              <p
-                v-if="form.errors.email"
-                class="mt-2 text-left text-xs font-semibold text-red-500"
-              >
-                {{ form.errors.email }}
-              </p>
-            </div>
-
-            <div>
-              <BaseTextInput
                 v-model="form.fields.password"
-                type="password"
-                placeholder="Enter a password"
+                placeholder="Create a new password"
                 class="w-full"
+                type="password"
               />
 
               <p
@@ -81,7 +56,7 @@ const form = useForm({
               <BaseTextInput
                 v-model="form.fields.password_confirmation"
                 type="password"
-                placeholder="Confirm password"
+                placeholder="Confirm your password"
                 class="w-full"
               />
 
@@ -96,7 +71,7 @@ const form = useForm({
             <BaseButton
               type="submit"
               :disabled="form.processing"
-              >Sign up</BaseButton
+              >Save new password</BaseButton
             >
           </form>
         </div>
