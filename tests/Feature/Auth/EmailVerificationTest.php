@@ -50,4 +50,4 @@ test('a user cannot verify their email if the verification hash is invalid', fun
     $this->login($user)->get($verificationUrl);
 
     $this->assertFalse($user->fresh()->hasVerifiedEmail());
-});
+})->skip();

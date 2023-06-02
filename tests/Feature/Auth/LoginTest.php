@@ -13,7 +13,7 @@ test('a user can login', function () {
     $this->post('/auth/login', [
         'email' => $user->email,
         'password' => 'password',
-    ])->assertRedirect(RouteServiceProvider::HOME);
+    ])->assertRedirect('/dashboard');
 
     $this->assertAuthenticated();
 });
