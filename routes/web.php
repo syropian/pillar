@@ -4,9 +4,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\LogoutController;
 use App\Http\Controllers\RegisterationController;
 use App\Http\Controllers\PasswordResetsController;
-// use App\Http\Controllers\EmailVerificationController;
+use App\Http\Controllers\EmailVerificationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,13 +43,9 @@ Route::group(
 Route::group(['middleware' => 'auth'], function () {
     Route::get('dashboard', DashboardController::class)->name('dashboard');
 
-    Route::get('logout', function () {
-        auth()->logout();
+    Route::get('logout', LogoutController::class)->name('logout');
 
-        return redirect()->route('home');
-    })->name('logout');
-
-    // Route::get('email/verify/{id}/{hash}', [EmailVerificationController::class])
-    //     ->middleware(['signed'])
-    //     ->name('verification.verify');
+    Route::get('email/verify/{id}/{hash}', EmailVerificationController::class)
+        ->middleware('signed')
+        ->name('verification.verify');
 });

@@ -1,4 +1,4 @@
-lockfileVersion: 5.3
+lockfileVersion: 5.4
 
 specifiers:
   '@tailwindcss/forms': ^0.5.3
@@ -28,20 +28,20 @@ dependencies:
   '@vueuse/core': 10.1.2_vue@3.3.4
   '@vueuse/head': 1.1.26_vue@3.3.4
   axios: 1.4.0
-  hybridly: 0.3.1_90938e07ec11cb1ddf479ec7bd9ab8d3
+  hybridly: 0.3.1_scjy4b7mchfr3x2ht3d33gvy2m
   prettier: 2.8.8
   vue: 3.3.4
 
 devDependencies:
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.3.2
   '@types/node': 20.2.5
-  '@typescript-eslint/eslint-plugin': 5.59.8_ab8dd1ed95d436aaad50051800187b6c
-  '@typescript-eslint/parser': 5.59.8_eslint@8.41.0+typescript@5.1.3
+  '@typescript-eslint/eslint-plugin': 5.59.8_vog5d3mv2q3kvlkqaumaagd3nq
+  '@typescript-eslint/parser': 5.59.8_7ploys55nlrvgzaet23aqtwjea
   '@vue/runtime-core': 3.3.4
   autoprefixer: 10.4.14_postcss@8.4.24
   eslint: 8.41.0
   eslint-config-prettier: 8.8.0_eslint@8.41.0
-  eslint-plugin-prettier: 4.2.1_b8a0a22f8c7d19b6bdb3c49c1d5d8def
+  eslint-plugin-prettier: 4.2.1_xcqkel4mpum3npntysob2xmn54
   eslint-plugin-vue: 9.14.1_eslint@8.41.0
   postcss: 8.4.24
   prettier-plugin-tailwindcss: 0.2.8_prettier@2.8.8
@@ -105,7 +105,6 @@ packages:
     cpu: [arm]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-arm64/0.17.19:
@@ -114,7 +113,6 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/android-x64/0.17.19:
@@ -123,7 +121,6 @@ packages:
     cpu: [x64]
     os: [android]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-arm64/0.17.19:
@@ -132,7 +129,6 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/darwin-x64/0.17.19:
@@ -141,7 +137,6 @@ packages:
     cpu: [x64]
     os: [darwin]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-arm64/0.17.19:
@@ -150,7 +145,6 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/freebsd-x64/0.17.19:
@@ -159,7 +153,6 @@ packages:
     cpu: [x64]
     os: [freebsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm/0.17.19:
@@ -168,7 +161,6 @@ packages:
     cpu: [arm]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-arm64/0.17.19:
@@ -177,7 +169,6 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ia32/0.17.19:
@@ -186,7 +177,6 @@ packages:
     cpu: [ia32]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-loong64/0.17.19:
@@ -195,7 +185,6 @@ packages:
     cpu: [loong64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-mips64el/0.17.19:
@@ -204,7 +193,6 @@ packages:
     cpu: [mips64el]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-ppc64/0.17.19:
@@ -213,7 +201,6 @@ packages:
     cpu: [ppc64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-riscv64/0.17.19:
@@ -222,7 +209,6 @@ packages:
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-s390x/0.17.19:
@@ -231,7 +217,6 @@ packages:
     cpu: [s390x]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/linux-x64/0.17.19:
@@ -240,7 +225,6 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/netbsd-x64/0.17.19:
@@ -249,7 +233,6 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/openbsd-x64/0.17.19:
@@ -258,7 +241,6 @@ packages:
     cpu: [x64]
     os: [openbsd]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/sunos-x64/0.17.19:
@@ -267,7 +249,6 @@ packages:
     cpu: [x64]
     os: [sunos]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-arm64/0.17.19:
@@ -276,7 +257,6 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-ia32/0.17.19:
@@ -285,7 +265,6 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@esbuild/win32-x64/0.17.19:
@@ -294,7 +273,6 @@ packages:
     cpu: [x64]
     os: [win32]
     requiresBuild: true
-    dev: true
     optional: true
 
   /@eslint-community/eslint-utils/4.4.0_eslint@8.41.0:
@@ -394,7 +372,7 @@ packages:
       - supports-color
     dev: false
 
-  /@hybridly/vite/0.3.1_90938e07ec11cb1ddf479ec7bd9ab8d3:
+  /@hybridly/vite/0.3.1_scjy4b7mchfr3x2ht3d33gvy2m:
     resolution: {integrity: sha512-+TgPMPdkTDqcqcz0MKIuWzsYku+w1lg/6kgnUfYuhzL2qPDSPBNh0YTUEBfMLUf/WaF7mnPsrhxJFUWz8ahaeg==}
     peerDependencies:
       vue: ^3.2.45
@@ -546,7 +524,6 @@ packages:
 
   /@types/node/20.2.5:
     resolution: {integrity: sha512-JJulVEQXmiY9Px5axXHeYGLSjhkZEnD+MDPDGbCbIAbMslkKwmygtZFy1X6s/075Yo94sf8GuSlFfPzysQrWZQ==}
-    dev: true
 
   /@types/semver/7.5.0:
     resolution: {integrity: sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==}
@@ -556,7 +533,7 @@ packages:
     resolution: {integrity: sha512-4p9vcSmxAayx72yn70joFoL44c9MO/0+iVEBIQXe3v2h2SiAsEIo/G5v6ObFWvNKRFjbrVadNf9LqEEZeQPzdA==}
     dev: false
 
-  /@typescript-eslint/eslint-plugin/5.59.8_ab8dd1ed95d436aaad50051800187b6c:
+  /@typescript-eslint/eslint-plugin/5.59.8_vog5d3mv2q3kvlkqaumaagd3nq:
     resolution: {integrity: sha512-JDMOmhXteJ4WVKOiHXGCoB96ADWg9q7efPWHRViT/f09bA8XOMLAVHHju3l0MkZnG1izaWXYmgvQcUjTRcpShQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -568,10 +545,10 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.5.1
-      '@typescript-eslint/parser': 5.59.8_eslint@8.41.0+typescript@5.1.3
+      '@typescript-eslint/parser': 5.59.8_7ploys55nlrvgzaet23aqtwjea
       '@typescript-eslint/scope-manager': 5.59.8
-      '@typescript-eslint/type-utils': 5.59.8_eslint@8.41.0+typescript@5.1.3
-      '@typescript-eslint/utils': 5.59.8_eslint@8.41.0+typescript@5.1.3
+      '@typescript-eslint/type-utils': 5.59.8_7ploys55nlrvgzaet23aqtwjea
+      '@typescript-eslint/utils': 5.59.8_7ploys55nlrvgzaet23aqtwjea
       debug: 4.3.4
       eslint: 8.41.0
       grapheme-splitter: 1.0.4
@@ -584,7 +561,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/parser/5.59.8_eslint@8.41.0+typescript@5.1.3:
+  /@typescript-eslint/parser/5.59.8_7ploys55nlrvgzaet23aqtwjea:
     resolution: {integrity: sha512-AnR19RjJcpjoeGojmwZtCwBX/RidqDZtzcbG3xHrmz0aHHoOcbWnpDllenRDmDvsV0RQ6+tbb09/kyc+UT9Orw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -612,7 +589,7 @@ packages:
       '@typescript-eslint/visitor-keys': 5.59.8
     dev: true
 
-  /@typescript-eslint/type-utils/5.59.8_eslint@8.41.0+typescript@5.1.3:
+  /@typescript-eslint/type-utils/5.59.8_7ploys55nlrvgzaet23aqtwjea:
     resolution: {integrity: sha512-+5M518uEIHFBy3FnyqZUF3BMP+AXnYn4oyH8RF012+e7/msMY98FhGL5SrN29NQ9xDgvqCgYnsOiKp1VjZ/fpA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -623,7 +600,7 @@ packages:
         optional: true
     dependencies:
       '@typescript-eslint/typescript-estree': 5.59.8_typescript@5.1.3
-      '@typescript-eslint/utils': 5.59.8_eslint@8.41.0+typescript@5.1.3
+      '@typescript-eslint/utils': 5.59.8_7ploys55nlrvgzaet23aqtwjea
       debug: 4.3.4
       eslint: 8.41.0
       tsutils: 3.21.0_typescript@5.1.3
@@ -658,7 +635,7 @@ packages:
       - supports-color
     dev: true
 
-  /@typescript-eslint/utils/5.59.8_eslint@8.41.0+typescript@5.1.3:
+  /@typescript-eslint/utils/5.59.8_7ploys55nlrvgzaet23aqtwjea:
     resolution: {integrity: sha512-Tr65630KysnNn9f9G7ROF3w1b5/7f6QVCJ+WK9nhIocWmx9F+TmCAcglF26Vm7z8KCTwoKcNEBZrhlklla3CKg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1164,7 +1141,6 @@ packages:
       '@esbuild/win32-arm64': 0.17.19
       '@esbuild/win32-ia32': 0.17.19
       '@esbuild/win32-x64': 0.17.19
-    dev: true
 
   /escalade/3.1.1:
     resolution: {integrity: sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==}
@@ -1190,7 +1166,7 @@ packages:
       eslint: 8.41.0
     dev: true
 
-  /eslint-plugin-prettier/4.2.1_b8a0a22f8c7d19b6bdb3c49c1d5d8def:
+  /eslint-plugin-prettier/4.2.1_xcqkel4mpum3npntysob2xmn54:
     resolution: {integrity: sha512-f/0rXLXUt0oFYs8ra4w49wYZBG5GKZpAYsJSm6rnYL5uVDjd+zowwMwVZHnAjf4edNrKpCDYfXDgmRE/Ak7QyQ==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -1546,13 +1522,13 @@ packages:
     engines: {node: '>=10.17.0'}
     dev: false
 
-  /hybridly/0.3.1_90938e07ec11cb1ddf479ec7bd9ab8d3:
+  /hybridly/0.3.1_scjy4b7mchfr3x2ht3d33gvy2m:
     resolution: {integrity: sha512-R2WSi+g6XUSO7j3MVqHpJ6vuXPuFDq+HqZoW9km551SVzgisvgiUIdBUNLiy6K2yvPAVx1IlW7f9YoAUEPnpjQ==}
     dependencies:
       '@hybridly/config': 0.3.1
       '@hybridly/core': 0.3.1_axios@1.4.0
       '@hybridly/progress-plugin': 0.3.1_axios@1.4.0
-      '@hybridly/vite': 0.3.1_90938e07ec11cb1ddf479ec7bd9ab8d3
+      '@hybridly/vite': 0.3.1_scjy4b7mchfr3x2ht3d33gvy2m
       '@hybridly/vue': 0.3.1_axios@1.4.0+vue@3.3.4
     transitivePeerDependencies:
       - '@babel/parser'
@@ -2114,7 +2090,6 @@ packages:
     resolution: {integrity: sha512-tdN8qQGvNjw4CHbY+XXk0JgCXn9QiF21a55rBe5LJAU+kDyC4WQn4+awm2Xfk2lQMk5fKup9XgzTZtGkjBdP9Q==}
     engines: {node: '>=10.13.0'}
     hasBin: true
-    dev: false
 
   /proxy-from-env/1.1.0:
     resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
@@ -2177,7 +2152,6 @@ packages:
     hasBin: true
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /run-parallel/1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -2585,7 +2559,6 @@ packages:
       rollup: 3.23.0
     optionalDependencies:
       fsevents: 2.3.2
-    dev: true
 
   /vue-demi/0.14.5_vue@3.3.4:
     resolution: {integrity: sha512-o9NUVpl/YlsGJ7t+xuqJKx8EBGf1quRhCiT6D/J0pfwmk9zUwYkC7yrF4SZCe6fETvSM3UNL2edcbYrSyc4QHA==}

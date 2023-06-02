@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\RegisterRequest;
 use App\Models\User;
+use App\Http\Requests\RegisterRequest;
+use Illuminate\Auth\Events\Registered;
 
 class RegisterationController extends Controller
 {
@@ -17,6 +18,8 @@ class RegisterationController extends Controller
         $user = User::create($request->validated());
 
         auth()->login($user);
+
+        event(new Registered($user));
 
         return redirect()->route('dashboard');
     }
